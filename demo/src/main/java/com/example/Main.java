@@ -56,7 +56,6 @@ public class Main {
                 String linkSearch= in.readLine();
                 String[] linkFinder = linkSearch.split(" ");
                 String path = linkFinder[1];
-                //path = "prova" +  path;
                 System.out.println(path);
 
                 if(path.equals("/classe.json")){
